@@ -46,6 +46,13 @@ En el caso de linux, se pueden instalar paquetes de *ATOM* con
 apm install packagename
 ```
 
+## terminal
+
+Hay varios terminales disponibles para Atom.
+`plataformio-ide-terminal` funciona correctamente.
+Es necesario para poder ejecutar programas de python en línea de comandos.
+
+
 ## Hydrogen
 Hydrogen es un paquete que permite ejecutar código utilizando los kernels de jupyter
 
