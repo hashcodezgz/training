@@ -20,7 +20,7 @@ Para instalar paquetes de python la manera más sencilla es usar pip:
 ```
 pip install pylint pep8 flake8 jedi
 ```
-Si no teneis instalado pip unicamente teneis que descargaros el archivo:
+Si no teneis instalado pip unicamente tenéis que descargaros el archivo:
 [get_pip.py](https://bootstrap.pypa.io/get-pip.py)
 
 abrir una terminal en la carpeta donde se encuentre el archivo y ejecutar_
@@ -51,7 +51,7 @@ Hydrogen es un paquete que permite ejecutar código utilizando los kernels de ju
 
 Una vez en *ATOM* **File->Settings->Install** instalamos el paquete de [Hydrogen](https://atom.io/packages/Hydrogen)
 
-Guia completa de uso de Hydrogen -->https://nteract.gitbooks.io/hydrogen/docs/Usage/GettingStarted.html
+Guía completa de uso de Hydrogen --><https://nteract.gitbooks.io/hydrogen/docs/Usage/GettingStarted.html>
 
 Para poder ejecutar un código será necesario instalar los [kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) correspondientes
 
@@ -88,14 +88,14 @@ Para ejecutar todo el código pulsamos **alt+ctr+shift+enter**
 ### Watch expression
 Una de las características mas llamativas es el uso del *Watch Expression*
 
-Para usarlo hay que abrir el panel de expressiones pulsando **ctr+shift+p** y
-seleccionando la opción de toggle watches.
+Para usarlo hay que abrir el panel de expresiones pulsando **ctr+shift+p** y
+seleccionando la opción de **toggle watches**.
 
 Una vez abierto el panel de expresiones, podemos introducir una variable, expresión...
 y al ejecutar el kernel nos mostrará su valor. Cada vez que cambiemos el código y
 volvamos a ejecutar, se volverá a calcular su valor.
 
-Por ejemplo si en este código viligamos la variable x
+Por ejemplo si en este código vigilamos la variable `x`
 ```
 x = 2 + 2
 
@@ -108,42 +108,45 @@ x = 2 + 6
 ```
 El valor de la variable ahora será 6
 
-Es muy util para comprobar resultados de variables en celdas muy grandes.
-Tambien es capaz de enseñar gráficos y tablas.
+Es muy útil para comprobar resultados de variables en celdas muy grandes.
+También es capaz de enseñar gráficos y tablas.
 
 ### Code instropection
-Abriendo la paleta de atom **ctr+shift+p** y seleccionado Toggle Inspector se abrirá
-una ventana con información de la función que estemos señalando, sus parametros y como ejecutarla.
+Abriendo la paleta de Atom **ctr+shift+p** y seleccionado **Toggle Inspector** se abrirá
+una ventana con información de la función que estemos señalando, sus parámetros y como ejecutarla.
 
 ### Restablecer kernels
-Es posible interrumpir apagar o restablecer kernels para empezar una nueva ejecucción
-pulsando sobre el nombre del kernel que estais usando en la parte inferior izquierda de ATOM
+Es posible interrumpir apagar o restablecer kernels para empezar una nueva ejecución
+pulsando sobre el nombre del kernel que estáis usando en la parte inferior izquierda de ATOM
 
 ## Teletype
 Teletype es una potente herramienta que permite un trabajo concurrente sobre un mismo documento
-al estilo de google docks.
+al estilo de Google Docs.
 
 Para usarlo es necesario instalar su paquete [teletype](https://github.com/atom/teletype)
 
 Una vez instalado aparecerá en la parte inferior derecha un icono de una antena.
-Os pedirá que iniceis sesión en [Github](https://github.com/), una vez iniciada,
-aparecerá un token que debereis pegar en la pestaña de teletype.
+Os pedirá que inicies sesión en [Github](https://github.com/), una vez iniciada,
+aparecerá un token que deberéis pegar en la pestaña de teletype.
 
-Una vez logeados ya se puede empezar a colaborar, para compartir un proyecto unicamente
+Una vez logeados ya se puede empezar a colaborar, para compartir un proyecto únicamente
 es necesario activar el share y compartir el token_ID de proyecto.
 
-Para unirse a un proyecto, presionar en join a portal e introducir el token_ID proporcionado
+Para unirse a un proyecto, presionar en **join a portal** e introducir el token_ID proporcionado
 
 ## Git
-Atom incorpora la herramienta git, para abrir el panel unicamente presionar
+Atom incorpora la herramienta git, para abrir el panel únicamente presionar
 **ctr+shift+9 o Packages->Github->Toggle git tab**
 
 Si tu proyecto se encuentra en un repositorio git local, en la pestaña aparecerán
 los ficheros donde se han realizado cambios.
 
-Para guardar los cambios, primero haremos un stage de los ficheros que queramos cambiar, escribieramos un mensaje de commit y realizaremos un commit.
+Para guardar los cambios, primero haremos un *stage* de los ficheros que queramos cambiar,
+escribiremos un mensaje de *commit* y
+realizaremos después el *commit*.
 
-Para pushear los cambios a la nube, pulsaremos en el icono de las dos flechas
-de la parte inferior derecha y pulsaremos push. Para recibir cambios que otros han subido a la nube pulsaremos el boton pull
+Para enviar los cambios a GitHub, pulsaremos en el icono de las dos flechas
+de la parte inferior derecha y pulsaremos **push**.
+Para recibir cambios que otros han subido a la nube pulsaremos el botón **pull**
 
-Podemos encontrar documentación en http://blog.atom.io/2014/03/13/git-integration.html
+Podemos encontrar documentación en <http://blog.atom.io/2014/03/13/git-integration.html>
