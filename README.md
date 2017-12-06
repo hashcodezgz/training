@@ -10,3 +10,4 @@ Material de entrenamiento y formación
 
 -   [Cheat Sheets](recursos/cheatsheet.md): Una lista de *cheat sheets* para aprender.
 Cualquiera puede contribuir añadiendo nuevos *cheat sheets*
+-   [Para aprender lenguajes](recursos/recursos_lenguajes.md): Una lista de páginas y herramientas para aprender lenguajes de programación. Cualquiera puede contribuir.
