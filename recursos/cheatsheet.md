@@ -53,3 +53,9 @@ Por defecto muestra el *cheat sheet* de JavaScript y hay que seleccionar mediant
 [GraQL Schema Language Cheat Sheet](https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png) nos explica las principales características del lenguaje de interrogación de datos [GraphQL](http://graphql.org/).
 
 ![GraphQL Schema Language Cheat Sheet](https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png)
+
+## Markdown
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) explica lo b&aacute;sico del lenguaje que entiende Markdown.
+
+[![Markdown Cheatsheet](img/cheatsheet-markdown.png)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
