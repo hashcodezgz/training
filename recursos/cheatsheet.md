@@ -56,6 +56,6 @@ Por defecto muestra el *cheat sheet* de JavaScript y hay que seleccionar mediant
 
 ## Markdown
 
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) explica lo b&aacute;sico del lenguaje que entiende Markdown.
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) explica lo básico del lenguaje que entiende Markdown.
 
 [![Markdown Cheatsheet](img/cheatsheet-markdown.png)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
