@@ -1,3 +1,4 @@
+
 ## Formaci&oacute;n de equipos HashCode 2018
 
 #### Equipos
@@ -5,6 +6,7 @@
 Nombre del equipo | Integrante 1 | Integrante 2 | Integrante 3 | Integrante 4
 --- | --- | --- | --- | ---
 Ma&ntilde;ocoders | &Aacute;ngel Ca&ntilde;al | Jorge Pinilla | Jorge Fern&aacute;ndez | Jorge Garc&iacute;a
+Las Panteras de Manila | Adri&aacute;n Garc&iacute;a | Abel Chils | Jorge Aznar | Daniel Fraile
 
 #### Reglas de los equipos
 
