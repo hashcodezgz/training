@@ -2,10 +2,11 @@
 Jorge Pinilla López -- 13/12/2017
 
 ## Built-in data Structures
-  https://docs.python.org/3.6/tutorial/datastructures.html
-  En Python nos encontramos con 4 strcturas de datos báscicas:
-  Listas, Tuplas, Diccionarios y Sets
-  ```python
+<https://docs.python.org/3.6/tutorial/datastructures.html>
+
+En Python nos encontramos con 4 estructuras de datos básicas:
+Listas, Tuplas, Diccionarios y Sets
+```python
 type([])
 # list ex: [1,2,3,4,5]
 type({})
@@ -17,19 +18,23 @@ type({1})
 type(())
 # tuple ex: (1,2,3,4)
 ```
-### Listas y Tuplas
-https://www.laurentluce.com/posts/python-list-implementation/
-https://wiki.python.org/moin/TimeComplexity
-https://www.quora.com/How-are-Python-lists-implemented-internally
+
+## Listas y Tuplas
+
+<https://www.laurentluce.com/posts/python-list-implementation/>
+
+<https://wiki.python.org/moin/TimeComplexity>
+
+<https://www.quora.com/How-are-Python-lists-implemented-internally>
 
 Una lista esta implementada con un array de punteros a objeto
 
 
 ![Lista](img/lista-1.png)
 
-La lista tiene 4 espacios reservados en memoria (allocated) aunque unicamente 1 está siendo utilizado y apunta al entero 1.
+La lista tiene 4 espacios reservados en memoria (*allocated*) aunque únicamente 1 está siendo utilizado y apunta al entero 1.
 
-Cuando la listas esta llena y se requiere más espacio se reposiciona en memoria (reallocate) duplicando su espacio reservado.
+Cuando la listas esta llena y se requiere más espacio se reposiciona en memoria (*reallocate*) duplicando su espacio reservado.
 
 ![List-complexity](img/list-complexity.png)
 
@@ -37,7 +42,8 @@ Las tuplas son un caso particular de listas inmutables
 
 
 ## Sets y Dicts
-https://www.laurentluce.com/posts/python-dictionary-implementation/
+
+<https://www.laurentluce.com/posts/python-dictionary-implementation/>
 
 Los Diccionarios están implementado mediante un hashmap con direccionamiento abierto.
 
@@ -45,7 +51,8 @@ Los Diccionarios están implementado mediante un hashmap con direccionamiento ab
 Al igual que con las listas es posible que sea necesario re-alocar el hashmap si no hay suficiente memoria reservada.
 
 ## Tiempos
-https://stackoverflow.com/questions/5790860/and-vs-list-and-dict-which-is-better
+
+<https://stackoverflow.com/questions/5790860/and-vs-list-and-dict-which-is-better>
 
 ```python
 from timeit import timeit
@@ -58,7 +65,7 @@ timeit("{}")
 timeit("dict()")
 0.211507648542554
 ```
-con datos
+con datos:
 
 ```python
 from timeit import timeit
@@ -76,8 +83,8 @@ timeit("dict(bar)", setup="bar=[('a', 1), ('b', 2), ('c', 3)]")
 0.9028228448029267
 ```
 
-memory allocation for arrays
-https://stackoverflow.com/questions/537086/reserve-memory-for-list-in-python
+memory allocation for arrays:
+<https://stackoverflow.com/questions/537086/reserve-memory-for-list-in-python>
 
 ```python
 from timeit import timeit
@@ -117,6 +124,8 @@ gc.collect()
 timeit(numpyzero, number=10)
 ```
 
-https://docs.python.org/3.6/library/collections.html
+## Otras referencias
 
-https://pypi.python.org/pypi/anytree
+<https://docs.python.org/3.6/library/collections.html>
+
+<https://pypi.python.org/pypi/anytree>
