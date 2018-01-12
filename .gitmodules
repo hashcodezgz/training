@@ -1,3 +1,3 @@
 [submodule "retos/comprobador HC2015/soluciones/jorpilo"]
 	path = retos/comprobador HC2015/soluciones/jorpilo
-	url = git@github.com:jorpilo/HashCode2015-Checker.git
+	url = https://github.com/jorpilo/HashCode2015-Checker.git
